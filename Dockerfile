@@ -21,7 +21,7 @@ RUN yum install -y http://yum.postgresql.org/9.4/redhat/rhel-7-x86_64/pgdg-cento
         echo 'install: --no-document'; \
         echo 'update: --no-document'; \
       } >> /usr/local/etc/gemrc \
-    && wget -O /tmp/ruby-2.4.1.tar.gz https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.4.1.tar.gz \
+    && wget -O /tmp/ruby-2.4.1.tar.gz https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.gz \
     && cd /tmp \
     && tar -zxf /tmp/ruby-2.4.1.tar.gz \
     && cd /tmp/ruby-2.4.1 \
