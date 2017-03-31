@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 MAINTAINER Anthony Robinson
 
 # Global gem pathing taken from:
